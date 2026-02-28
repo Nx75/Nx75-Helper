@@ -1,0 +1,32 @@
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example           # ← allow committing the example/template
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
